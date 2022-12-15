@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //promise.all
+            // const now= () =>{
+            //     return new Promise((resolve,reject)=>{
+            //         setTimeout (()=>
+            //            reject ("first value"),1000)
+            //     })
+            // }
+            // const naw= () => {
+            //     return new Promise((resolve,reject)=>{
+            //         setTimeout (()=> 
+            //            resolve ("secound value"),2000)
+            //     })
+            // }
+            // const men= () => {
+            //     return new Promise((resolve,reject)=>{
+            //         setTimeout (()=> 
+            //            reject ("threed value"),5000)
+            //     })
+            // }
+            // Promise.all([now(),naw(),men()])
+            // .then(result => 
+            //      console.log("success :",result))
+
+            // .catch(error => 
+            //      console.log("error :",error))
+            
+
+            //promise chianing
+
+                //  function nall(){
+                //     return new Promise(function(resolve,reject){
+                //         setTimeout(() => {
+                //         resolve("success") 
+                //         }, 5000);
+                //     })
+                // }
+
+                // function nell(res){
+                //     console.log("resolve",res);
+                //     return new Promise(function(resolve,reject){
+                //         setTimeout(() => {
+                //             reject("fail")
+                //         }, 3000);
+                //     })
+                // }
+                // nall()
+                // .then(nell)
+                // .then(function(res1){
+                //     console.log(res1);
+                // })
+                // .catch(function(err){
+                //     console.log(err);
+                // })
+
+        //Async and await
+            // function now(){
+            //     return new Promise(function(resolve,reject){
+            //         setTimeout(() => {
+            //         resolve("success") 
+            //         }, 2000);
+            //     })
+            // }
+
+            // function naw(res){
+            //     console.log(res);
+            //     return new Promise(function(resolve,reject){
+            //         setTimeout(() => {
+            //             resolve("failure")
+            //         }, 1000);
+            //     })
+            // }
+            
+            // async function main(){
+            //     let res1=await now()
+            //     let res2=await naw()
+            //     console.log(res1,res2);
+            // }
+            // main()
+
+
+        </script>
+    </body>
+</html>
